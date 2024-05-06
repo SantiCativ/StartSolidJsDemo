@@ -1,4 +1,10 @@
-export default function Estudiantes() {
+
+import Estudiantes from "~/components/Estudiante/listado";
+
+export default function listado() {
     
-    return <div> ESTUDIANTESSSSS</div>;
+    return(
+        <Estudiantes/>
+    );
   }
+
